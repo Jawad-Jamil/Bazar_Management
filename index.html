@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar Management</title>
+    <link rel="shortcut icon" href="https://www.colorcombos.com/images/colors/FF3C00.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h2 id="heading">Bazar Management</h2>
+      <div class="Information_wrapper">
+        <div class="info">
+                <form action="#" name="datas">
+                <input type="text" name="bzr" placeholder="Type The Amount Of Your Money">
+                <input type="number" id="price_box" name="price" placeholder="Type Product's Price">
+
+                <button onclick="bazar_calculation(datas.price.value,datas.bzr.value);" type="button">Submit</button>
+                </form>
+        </div>
+
+        <div class="result">
+           <ul name="uls" id="myList"></ul>
+        </div>
+
+     </div>
+   </div>
+
+   <script src="custom.js"></script>
+</body>
+</html>
