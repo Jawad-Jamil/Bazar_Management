@@ -5,7 +5,7 @@ function  bazar_calculation(price,tk) {
     var textnode = document.createTextNode(`Available= ${tk-price}`);
     node.appendChild(textnode);
     document.getElementById("myList").appendChild(node);
-//     document.getElementById("price_box").value = "";
+    document.getElementById("price_box").value = "";
 }
 
 
